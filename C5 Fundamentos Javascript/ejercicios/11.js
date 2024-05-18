@@ -6,6 +6,11 @@ function sonIguales(x, y) {
   // 5, 5 ---> true 
   // 5, 8 ---> false 
   // Tu código:
+
+  return x === y;
 }
+
+console.log(sonIguales(3,3))
+console.log(sonIguales(2,4))
 
 module.exports = sonIguales;

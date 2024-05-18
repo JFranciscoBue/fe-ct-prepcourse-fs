@@ -6,6 +6,12 @@ function mayorQueCincuenta(num) {
   // 51 ---> true
   // 15 ---> false
   // Tu código:
+
+  return num > 50? true : false;
 }
+
+console.log(mayorQueCincuenta(254))
+
+
 
 module.exports = mayorQueCincuenta;
